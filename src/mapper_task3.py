@@ -12,3 +12,4 @@ for line in sys.stdin:
         continue
     location = parts[7]
     print(f"{location}\t1")
+# Mapper for Task 3 - Location Hotspots - Sema Raslan
