@@ -11,5 +11,5 @@ for line in sys.stdin:
     if parts[0] == 'ID':
         continue
     date_str = parts[2]
-    year = date_str.split('/')[2].split(' ')[0]
+    year = date_str.split('/')[0]
     print(f"{year}\t1")
