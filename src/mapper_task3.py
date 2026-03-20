@@ -10,6 +10,5 @@ for line in sys.stdin:
         continue
     if parts[0] == 'ID':
         continue
-    location = parts[7]
+    location = parts[6]
     print(f"{location}\t1")
-# Mapper for Task 3 - Location Hotspots - Sema Raslan
