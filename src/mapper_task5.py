@@ -10,6 +10,6 @@ for line in sys.stdin:
         continue
     if parts[0] == 'ID':
         continue
-    arrest = parts[8].lower().strip()
+    arrest = parts[9].lower().strip()
     if arrest in ('true', 'false'):
         print(f"{arrest}\t1")
