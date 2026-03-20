@@ -10,5 +10,5 @@ for line in sys.stdin:
         continue
     if parts[0] == 'ID':
         continue
-    location = parts[6]
+    location = parts[7]
     print(f"{location}\t1")
