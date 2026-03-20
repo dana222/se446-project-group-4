@@ -4,10 +4,10 @@
 
 | Name | Student ID |
 |------|------------|
-| Dana Ghassan | |
-| Sema Raslan | |
-| Yomna Kassem | |
-| Sara Elhams | |
+| Dana Ghassan | 231435|
+| Sema Raslan |231476 |
+| Yomna Kassem |231158 |
+| Sara Elhams |201575 |
 
 ## Executive Summary
 This project implements a MapReduce pipeline on a Hadoop cluster to analyze the Chicago Crimes dataset. We wrote four mapper scripts to answer key questions about crime types, locations, yearly trends, and arrest rates. All jobs were run using Hadoop Streaming with Python scripts on a dataset of 793,073 crime records.
