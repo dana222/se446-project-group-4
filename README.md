@@ -319,6 +319,7 @@ OTHER              29213
 Streets are by far the most common crime location, indicating that outdoor public spaces require the highest patrol priority, with residential areas following as the second most dangerous zone.
 
 ### Execution Log
+```
 soraslan@master-node:~$ ssh soraslan@134.209.172.50
 soraslan@134.209.172.50's password: 
 Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-170-generic x86_64)
@@ -1073,6 +1074,7 @@ WOODED AREA	7
 YARD	311
 YMCA	3
 soraslan@master-node:~$
+```
 
 ---
 
