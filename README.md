@@ -362,6 +362,7 @@ true     215199
 Only approximately 28% of crimes result in an arrest, meaning nearly 3 out of 4 criminal incidents do not lead to a direct apprehension, indicating significant room for improvement in patrol efficiency.
 
 ### Execution Log
+```bash
 selhams@master-node:~/se446-project-group-4/src$ nano mapper_task5.py
 selhams@master-node:~/se446-project-group-4/src$ hdfs dfs -rm -r /user/selhams/task5_output
 Deleted /user/selhams/task5_output
@@ -455,6 +456,7 @@ packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4
 selhams@master-node:~/se446-project-group-4/src$ hdfs dfs -cat /user/selhams/task5_output/part-00000
 false	551554
 true	215199
+```
 
 ---
 
