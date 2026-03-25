@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 import sys
-import csv
 
-reader = csv.reader(sys.stdin)
-
-for parts in reader:
-    if not parts:
+for line in sys.stdin:
+    line = line.strip()
+    if not line:
+        continue
+    parts = line.split(',')
+    if len(parts) <= 7:
         continue
     if parts[0] == 'ID':
         continue
-    if len(parts) <= 7:
-        continue
-
-    location = parts[7].strip()
-    if location:
-        print(f"{location}\t1")
+    location = parts[7]
+    print(f"{location}\t1")
