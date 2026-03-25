@@ -1097,7 +1097,7 @@ soraslan@master-node:~$
 Crime volume was highest in the early 2000s, with a sharp decline over the following decades, suggesting a long-term downward trend in reported incidents across Chicago.
 
 ### Execution Log
-'''
+```
 
 ykassem@master-node:~$ mapred streaming -files mapper_task4.py,reducer_sum.py -mapper "python3 mapper_task4.py" -reducer "python3 reducer_sum.py" -input /data/chicago_crimes_sample.csv -output /user/ykassem/project/m1/task4
 packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4.1.jar] /tmp/streamjob18230282330824802454.jar tmpDir=null
@@ -1317,7 +1317,7 @@ ykassem@master-node:~$ hdfs dfs -cat /user/ykassem/project/m1/task4_full/part-00
 2023	81461
 2024	880
 2025	12710
-'''
+```
 
 ---
 
