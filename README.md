@@ -306,6 +306,12 @@ WEAPONS VIOLATION	8893
 
 ### Mapper: `src/mapper_task3.py`
 
+### Command (Sample Test)
+mapred streaming -files mapper_task3.py,reducer_sum.py -mapper "python3 mapper_task3.py" -reducer "python3 reducer_sum.py" -input /data/chicago_crimes_sample.csv -output /user/soraslan/project/m1/task3
+
+### Command (Full Dataset)
+mapred streaming -files mapper_task3.py,reducer_sum.py -mapper "python3 mapper_task3.py" -reducer "python3 reducer_sum.py" -input /data/chicago_crimes.csv -output /user/soraslan/project/m1/task3_full
+
 ### Top 5 Results (Full Dataset)
 ```
 STREET            245437
@@ -1084,6 +1090,12 @@ soraslan@master-node:~$
 
 ### Mapper: `src/mapper_task4.py`
 
+### Command (Sample Test)
+mapred streaming -files mapper_task4.py,reducer_sum.py -mapper "python3 mapper_task4.py" -reducer "python3 reducer_sum.py" -input /data/chicago_crimes_sample.csv -output /user/ykassem/project/m1/task4
+
+### Command (Full Dataset)
+mapred streaming -files mapper_task4.py,reducer_sum.py -mapper "python3 mapper_task4.py" -reducer "python3 reducer_sum.py" -input /data/chicago_crimes.csv -output /user/ykassem/project/m1/task4_full
+
 ### Top 5 Results (Full Dataset)
 ```
 2001    467301
@@ -1326,6 +1338,9 @@ ykassem@master-node:~$ hdfs dfs -cat /user/ykassem/project/m1/task4_full/part-00
 **Research Question**: What percentage of crimes result in an arrest?
 
 ### Mapper: `src/mapper_task5.py`
+
+### Command (Full Dataset)
+mapred streaming -files mapper_task5.py,reducer_sum.py -mapper "python3 mapper_task5.py" -reducer "python3 reducer_sum.py" -input /data/chicago_crimes.csv -output /user/selhams/task5_output
 
 ### Results (Full Dataset)
 ```
